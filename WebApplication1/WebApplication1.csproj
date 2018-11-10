@@ -231,6 +231,7 @@
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Logs\nlog-all_2018-11-11.log" />
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -282,7 +283,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Logs\" />
     <Folder Include="Views\Author\" />
   </ItemGroup>
   <ItemGroup>

@@ -11,18 +11,18 @@ namespace WebApplication1.Controllers {
 
 
         public ActionResult Index() {
-            logger.Info("Index() action");
+            logger.Info("Index() action2222222222222222222222222222222222222");
             return View();
         }
 
         public ActionResult About() {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.22222222222222222222222222";
 
             return View();
         }
 
         public ActionResult Contact() {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page.2222222222222222222222222222222222222222222222222222";
 
             return View();
         }
