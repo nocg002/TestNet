@@ -13,7 +13,11 @@ namespace WebApplication1.Controllers
         {
             string str = "Hello~ controller";
             ViewData["msg"] = str + "<br/>我要加油加油";
-            
+            ViewData["msg"] = str + "<br/>我要加油加油";
+            ViewData["msg"] = str + "<br/>我要加油加油";
+            ViewData["msg"] = str + "<br/>我要加油加油";
+            ViewData["msg"] = str + "<br/>我要加油加油";
+            ViewData["msg"] = str + "<br/>我要加油加油";
             return View();
         }
     }
