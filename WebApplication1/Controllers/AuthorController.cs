@@ -11,6 +11,7 @@ namespace WebApplication1.Controllers
         // GET: Author
         public ActionResult Index()
         {
+            ViewData["msg"] = "Hello~~~~";
             return View();
         }
     }
