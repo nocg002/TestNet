@@ -6,7 +6,12 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Controllers {
     public class HomeController : Controller {
+        /// <summary>Log</summary>
+        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+
+
         public ActionResult Index() {
+            logger.Info("Index() action");
             return View();
         }
 
