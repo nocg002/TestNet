@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers {
 
 
         public ActionResult Index() {
-            logger.Info("Index() action2222222222222222222222222222222222222");
+            logger.Info("我是 Index() action");
             return View();
         }
 
